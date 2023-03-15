@@ -42,7 +42,7 @@ router.post("/shorten", async (req: Request, res: Response) => {
 
 router.get("/long", async (req: Request, res: Response) => {
   const shortUrl: string = req.query.shortUrl as string;
-
+  console.log(shortUrl);
   if (!shortUrl) {
     return res.status(400).send({ error: "URL is required!" });
   }
