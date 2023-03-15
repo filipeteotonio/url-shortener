@@ -4,6 +4,10 @@
 
 To install the dependencies, run the command: `npm install`
 
+## Starting the app
+
+Use `npm start` to run the application
+
 ## APIs
 
 **POST /shorten**
@@ -24,7 +28,6 @@ To install the dependencies, run the command: `npm install`
                     --data-raw '{
                         "longUrl": "www.example.com;this-is-a-test"
                      }'
-
 
 **GET /long**
 
